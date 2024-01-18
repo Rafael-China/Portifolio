@@ -1,0 +1,15 @@
+body{
+    background-color: #191919;
+}
+.divNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: fixed;
+}
+.navbar{
+    background-color: #404040 !important;
+}
+.nav-link{
+    color:#fff;
+}
