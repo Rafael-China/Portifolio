@@ -12,6 +12,8 @@ body {
 }
 
 .navbar {
+  --bs-navbar-hover-color: #e7c433;
+  --bs-navbar-brand-hover-color: #e7c433;
   background-color: rgba(64, 64, 64, 0.25) !important;
   border-radius: 5px;
 }
@@ -41,10 +43,12 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  justify-content: center;
 }
 
 .divTexto p {
   text-align: justify;
+  text-decoration: underline #e7c433;
 }
 
 .animate-charcter {
