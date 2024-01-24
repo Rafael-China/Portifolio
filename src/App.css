@@ -78,11 +78,12 @@ body {
   height: auto;
 }
 
-.avatar {
-  width: 100px;
-  /* Ajuste o tamanho conforme necessário */
+.avatar img {
+  width: auto;
   height: auto;
   animation: bounceUpDown 3s infinite alternate;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px #dabb44;
 }
 
 @keyframes bounceUpDown {

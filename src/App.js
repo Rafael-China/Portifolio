@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import imagem from "./assents/img/Foto.jpeg"
 
 const calcularIdade = (dataNascimento) => {
   const hoje = new Date();
@@ -72,10 +73,11 @@ function App() {
               <br /> Busco minha primeira vaga de trabalho na área de
               desenvolvimento Web.
             </p>
-            
           </div>
           <div className="divAvatar">
-            <div className="avatar"></div>
+            <div className="avatar">
+              <img src={imagem} />
+            </div>
           </div>
         </div>
       </div>
