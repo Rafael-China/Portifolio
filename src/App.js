@@ -35,24 +35,24 @@ function App() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="#">
-                  Home
+                  Sobre Mim
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Projetos
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                  Contatos
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Disabled
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
@@ -72,6 +72,10 @@ function App() {
               <br /> Busco minha primeira vaga de trabalho na área de
               desenvolvimento Web.
             </p>
+            
+          </div>
+          <div className="divAvatar">
+            <div className="avatar"></div>
           </div>
         </div>
       </div>
