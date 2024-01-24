@@ -1,63 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import imagem from "./assents/img/Foto.jpeg"
-
-const calcularIdade = (dataNascimento) => {
-  const hoje = new Date();
-
-  const diferencaAnos = hoje.getFullYear() - dataNascimento.getFullYear();
-
-  if (
-    hoje.getMonth() < dataNascimento.getMonth() ||
-    (hoje.getMonth() === dataNascimento.getMonth() &&
-      hoje.getDate() < dataNascimento.getDate())
-  ) {
-    return diferencaAnos - 1;
-  } else {
-    return diferencaAnos;
-  }
-};
+import DatadeNascimento from "./codes/dataNascimento.js"
+import NavBar from './codes/navbar.js';  
 
 function App() {
-  const [idade, setIdade] = useState(null);
 
-  useEffect(() => {
-    // Data de nascimento: 24/09/2003
-    const dataNascimento = new Date(2003, 8, 24);
-    const idadeCalculada = calcularIdade(dataNascimento);
-    setIdade(idadeCalculada);
-  }, []);
+  const idade = DatadeNascimento();
 
   return (
     <div className="App">
-      <div className="container-fluid divNav">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
-                  Sobre Mim
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Projetos
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contatos
-                </a>
-              </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Disabled
-                </a>
-              </li> */}
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <NavBar /> {/* Corrigido para o nome do componente ser NavBar */}
       <div className="container-fluid main">
         <div className="wellcome">
           <div className="cotainer divTexto">
@@ -70,13 +23,13 @@ function App() {
               Atualmente tenho {idade !== null ? `${idade} anos` : 'calculando idade'}.
               Sou estudante de Análise e Desenvolvimento de Sistemas na
               Universidade Newton Paiva.
-              <br /> Busco minha primeira vaga de trabalho na área de
+              <br /> Busco vaga de trabalho na área de
               desenvolvimento Web.
             </p>
           </div>
           <div className="divAvatar">
             <div className="avatar">
-              <img src={imagem} />
+              <img src={imagem} alt="avatar" />
             </div>
           </div>
         </div>
