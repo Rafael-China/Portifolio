@@ -1,0 +1,41 @@
+.divNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.navbar {
+    --bs-navbar-hover-color: #e7c433;
+    --bs-navbar-brand-hover-color: #e7c433;
+    background-color: rgba(64, 64, 64, 0.25) !important;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* Personalize a cor do ícone do botão hamburguer */
+
+
+/* Tornar o menu responsivo branco */
+@media (max-width: 768px) {
+    .navbar-nav {
+        justify-content: center;
+        align-items: center ;
+    }
+
+    .divNav{
+        justify-content: left;
+    }
+
+    .navbar {
+        --bs-navbar-hover-color: #e7c433;
+        --bs-navbar-brand-hover-color: #e7c433;
+        background-color: rgba(64, 64, 64, 0.25) !important;
+        border-radius: 5px;
+    }
+}
