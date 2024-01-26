@@ -7,7 +7,7 @@ const Main = () => {
     const idade = DatadeNascimento();
 
     return (
-        <div className="main">
+        <div className="main" id='Main'>
             <div className="wellcome">
                 <div className="divTexto">
                     <h2>
