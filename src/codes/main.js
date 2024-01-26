@@ -7,9 +7,9 @@ const Main = () => {
     const idade = DatadeNascimento();
 
     return (
-        <div className="container-fluid main">
+        <div className="main">
             <div className="wellcome">
-                <div className="cotainer divTexto">
+                <div className="divTexto">
                     <h2>
                         Olá me chamo <span className="animate-charcter">Rafael </span>,
                         seja muito bem-vindo ao{' '}
@@ -19,8 +19,7 @@ const Main = () => {
                         Atualmente tenho {idade !== null ? `${idade} anos` : 'calculando idade'}.
                         Sou estudante de Análise e Desenvolvimento de Sistemas na
                         Universidade Newton Paiva.
-                        <br /> Busco vaga de trabalho na área de
-                        desenvolvimento Web.
+                        <br /> Busco vaga de trabalho na área de <span>desenvolvimento Web</span>.
                     </p>
                 </div>
                 <div className="divAvatar">

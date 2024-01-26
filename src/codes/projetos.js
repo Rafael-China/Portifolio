@@ -3,7 +3,11 @@ import '../styles/projeto.css';
 
 const Projetos = () => {
     return (
-        <div className=' projetos'></div>
+        <div className='projetos'>
+            <div>
+                
+            </div>
+        </div>
     );
 };
 

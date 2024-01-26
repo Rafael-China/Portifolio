@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: auto;
     height: 100vh;
 }
 
@@ -24,7 +24,14 @@
 
 .divTexto p {
     text-align: justify;
-    text-decoration: underline #e7c433;
+    text-shadow:
+        1px 1px 2px black,
+        0 0 .7em #d1b122,
+        0 0 0.2em #dabb44;
+}
+
+.divTexto p span {
+    text-decoration: underline #dabb44;
 }
 
 .animate-charcter {
@@ -55,11 +62,11 @@
 }
 
 .avatar img {
-    width: auto;
+    width: 300px;
     height: auto;
     animation: bounceUpDown 3s infinite alternate;
     border-radius: 10px;
-    box-shadow: 0px 15px 30px #dabb44;
+    box-shadow: 0px 0px 25px #dabb44;
 }
 
 @keyframes bounceUpDown {
@@ -74,8 +81,8 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .divAvatar{
+@media only screen and (max-width: 768px) {
+    .divAvatar {
         display: none;
     }
-  }
+}
