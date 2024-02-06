@@ -9,7 +9,7 @@
     position: relative;
     text-align: center;
     padding: 20px;
-    background-color: rgba(64, 64, 64, 0.4);
+    background-color: rgba(64, 64, 64, 0.8);
     border-radius: 8px;
     box-shadow: 0 0 10px #000;
     overflow: hidden;
@@ -60,4 +60,8 @@
 .slick-prev,
 .slick-next {
     display: none;
+}
+
+.slick-list{
+    border-radius: 10px;
 }
