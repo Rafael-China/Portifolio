@@ -32,7 +32,7 @@
     .navbar {
         --bs-navbar-hover-color: #e7c433;
         --bs-navbar-brand-hover-color: #e7c433;
-        background-color: rgba(64, 64, 64, 0.25) !important;
+        background-color: rgba(231, 196, 51, .7) !important;
         border-radius: 5px;
     }
 }
