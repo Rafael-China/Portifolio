@@ -1,16 +1,10 @@
 .divContatos {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     background-color: rgba(64, 64, 64, 0.9);
     display: flex;
     justify-content: center;
     padding: 10px;
-}
-
-.email {
-    width: 65%;
-    background-color: #fff;
-    border-radius: 5px;
 }
 
 .redesSociais {
@@ -65,6 +59,29 @@
     justify-content: center;
 }
 
+.email {
+    width: 65%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 @media only screen and (max-width: 768px) {
-    
+    .divContatos{
+        flex-direction: column;
+        height: 100vh;
+        justify-content: none;
+        margin-top: 50px;
+    }
+    .redesSociais{
+        width: 100%;
+        max-height: 50vh;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .email{
+        width: 100%;
+        max-height: 50vh;
+        border-radius: 10px;
+    }
 }
