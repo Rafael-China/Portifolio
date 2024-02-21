@@ -11,7 +11,7 @@ const contatos = () => {
                 <div className='redesSociais'>
                     <h2>Redes Sociais</h2>
                     <div className='medias'>
-                        <p>rcnfuncional@gmail.com</p>
+                        <a href="mailto:rcnfuncional@gmail.com?subject=Portofólio" target='blank'><p>rcnfuncional@gmail.com</p></a>
                         <p>(31) 99816-5044</p>
                     </div>
                     <div className='mediasClicavel'>

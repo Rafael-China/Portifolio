@@ -84,7 +84,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .wellcome{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
     .divAvatar {
-        display: none;
+        width: 200px;
     }
 }
