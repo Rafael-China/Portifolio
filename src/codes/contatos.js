@@ -6,7 +6,7 @@ const contatos = () => {
         <div className='main' id='Contatos'>
             <div className='divContatos'>
                 <div className='email'>
-                    <p>asdfasdfa</p>
+                    <p>Area "email"</p>
                 </div>
                 <div className='redesSociais'>
                     <h2>Redes Sociais</h2>

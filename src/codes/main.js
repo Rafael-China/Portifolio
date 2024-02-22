@@ -9,6 +9,11 @@ const Main = () => {
     return (
         <div className="main" id='Main'>
             <div className="wellcome">
+                <div className="divAvatar">
+                    <div className="avatar">
+                        <img src={imagem} alt="avatar" />
+                    </div>
+                </div>
                 <div className="divTexto">
                     <h2>
                         Olá me chamo <span className="animate-charcter">Rafael </span>,
@@ -21,11 +26,7 @@ const Main = () => {
                         Universidade Newton Paiva.
                         <br /> Busco vaga de trabalho na área de <span>Desenvolvimento Web</span>.
                     </p>
-                </div>
-                <div className="divAvatar">
-                    <div className="avatar">
-                        <img src={imagem} alt="avatar" />
-                    </div>
+                    {/* colocar tag datails e sumary para adicionar mais informações */}
                 </div>
             </div>
         </div>

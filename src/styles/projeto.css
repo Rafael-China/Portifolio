@@ -2,13 +2,12 @@
     width: 80%;
     height: auto;
     margin: 0 auto;
-    margin-top: 20px;
 }
 
 .projeto-item {
     position: relative;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     background-color: rgba(64, 64, 64, 0.8);
     border-radius: 8px;
     overflow: hidden;
