@@ -19,7 +19,7 @@ const Main = () => {
                         Atualmente tenho {idade !== null ? `${idade} anos` : 'calculando idade'}.
                         Sou estudante de Análise e Desenvolvimento de Sistemas na
                         Universidade Newton Paiva.
-                        <br /> Busco vaga de trabalho na área de <span>desenvolvimento Web</span>.
+                        <br /> Busco vaga de trabalho na área de <span>Desenvolvimento Web</span>.
                     </p>
                 </div>
                 <div className="divAvatar">

@@ -11,10 +11,9 @@
     padding: 20px;
     background-color: rgba(64, 64, 64, 0.8);
     border-radius: 8px;
-    box-shadow: 0 0 10px #000;
     overflow: hidden;
     color: #fff;
-    height: 350px;
+    height: auto;
 }
 
 .projeto-item img {

@@ -33,6 +33,11 @@ const NavBar = () => {
                 Contatos
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Curriculo
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
