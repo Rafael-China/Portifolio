@@ -74,13 +74,6 @@
     filter: drop-shadow(5px 5px 3px #000)
 }
 
-.email {
-    width: 65%;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-}
-
 @media only screen and (max-width: 768px) {
     .divContatos {
         flex-direction: column;
@@ -101,4 +94,50 @@
         max-height: 50vh;
         border-radius: 10px;
     }
+}
+
+.email {
+    width: 65%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.email h2 {
+    color: #e7c433;
+    text-decoration: underline #e7c433;
+    text-shadow: 5px 5px 60px #000;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #e7c433;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 3px 3px 20px #e7c433;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #d0b429;
+    box-shadow: 3px 3px 20px #d0b429;
 }

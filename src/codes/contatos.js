@@ -7,7 +7,19 @@ const contatos = () => {
         <div className='main' id='Contatos'>
             <div className='divContatos'>
                 <div className='email'>
-                    <p>Area "email"</p>
+                    <h2>Vamos Conversar?</h2>
+                    <form action="#" method="post">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required />
+
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required />
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+
+                        <input type="submit" value="Enviar" />
+                      </form>
                 </div>
                 <div className='redesSociais'>
                     <h2>Redes Sociais</h2>
@@ -23,7 +35,7 @@ const contatos = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
