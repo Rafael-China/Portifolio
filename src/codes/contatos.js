@@ -1,10 +1,12 @@
 import React from 'react';
 import '../styles/contatos.css';
 import { SiGithub, SiLinkedin, SiWhatsapp } from "react-icons/si";
+import WidgetComponent from './windget.js';
 
 const contatos = () => {
     return (
         <div className='main' id='Contatos'>
+            <WidgetComponent />
             <div className='divContatos'>
                 <div className='email'>
                     <h2>Vamos Conversar?</h2>
@@ -29,7 +31,7 @@ const contatos = () => {
                     </div>
                     <div className='mediasClicavel'>
                         <a href='https://www.linkedin.com/in/rafael-nogueira-49382b221/' target='blank_'><span><SiLinkedin /></span></a>
-                        <a href='#'><span><SiGithub /></span></a>
+                        <a href='https://github.com/Rafael-China' target='blank_'><span><SiGithub /></span></a>
                         {/* <a>Instagram</a> */}
                         <a href='#'><span><SiWhatsapp /></span></a>
                     </div>
