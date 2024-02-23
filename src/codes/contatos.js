@@ -33,7 +33,7 @@ const contatos = () => {
                         <a href='https://www.linkedin.com/in/rafael-nogueira-49382b221/' target='blank_'><span><SiLinkedin /></span></a>
                         <a href='https://github.com/Rafael-China' target='blank_'><span><SiGithub /></span></a>
                         {/* <a>Instagram</a> */}
-                        <a href='#'><span><SiWhatsapp /></span></a>
+                        <a href='https://w.app/ftC524'><span><SiWhatsapp /></span></a>
                     </div>
                 </div>
             </div>
