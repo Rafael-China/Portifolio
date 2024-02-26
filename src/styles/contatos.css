@@ -1,19 +1,20 @@
 .divContatos {
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    height: auto;
     background-color: rgba(64, 64, 64, 0.9);
     display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 25px;
 }
 
 .redesSociais {
     width: 35%;
-    border-radius: 2px;
+    max-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid #fff; */
     padding: 5px;
 }
 
@@ -24,7 +25,7 @@
 }
 
 .medias {
-    height: 100vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +41,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px 10px #000;
+    border-radius: 5px;
 }
 
 .medias a {
@@ -72,28 +74,6 @@
     color: auto;
     color: #dabb44;
     filter: drop-shadow(5px 5px 3px #000)
-}
-
-@media only screen and (max-width: 768px) {
-    .divContatos {
-        flex-direction: column;
-        height: 100vh;
-        justify-content: none;
-        margin-top: 50px;
-    }
-
-    .redesSociais {
-        width: 100%;
-        max-height: 50vh;
-        border-radius: 10px;
-        margin-top: 10px;
-    }
-
-    .email {
-        width: 100%;
-        max-height: 50vh;
-        border-radius: 10px;
-    }
 }
 
 .email {
@@ -140,4 +120,22 @@ input[type="submit"]:hover {
     color: #000;
     border: 1px solid #d0b429;
     box-shadow: 3px 3px 20px #d0b429;
+}
+
+@media only screen and (max-width: 768px) {
+    .divContatos {
+        flex-direction: column;
+        justify-content: none;
+    }
+
+    .redesSociais {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .email {
+        width: 100%;
+        max-height: auto;
+        border-radius: 10px;
+    }
 }

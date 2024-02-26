@@ -4,6 +4,7 @@ import NavBar from './codes/navbar.js';
 import Projetos from './codes/projetos.js';
 import Main from './codes/main.js';
 import Contatos from './codes/contatos.js';
+import WidgetComponent from './codes/windget.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Main />
       <Projetos />
       <Contatos />
+      <WidgetComponent />
     </div>
   );
 }
