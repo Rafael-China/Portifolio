@@ -1,6 +1,6 @@
 .divContatos {
     width: 100%;
-    height: auto;
+    height: 75vh;
     background-color: rgba(64, 64, 64, 0.9);
     display: flex;
     justify-content: center;
@@ -124,6 +124,7 @@ input[type="submit"]:hover {
 
 @media only screen and (max-width: 768px) {
     .divContatos {
+        height: auto;
         flex-direction: column;
         justify-content: none;
     }

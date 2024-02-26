@@ -46,13 +46,13 @@ const Projetos = () => {
         slidesToScroll: 1,
         responsive: [
             {
-              breakpoint: 768, // Ajuste o ponto de interrupção conforme necessário
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              },
+                breakpoint: 768, // Ajuste o ponto de interrupção conforme necessário
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
             },
-          ],
+        ],
     };
 
     return (
