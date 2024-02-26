@@ -4,7 +4,7 @@ import { SiGithub, SiLinkedin, SiWhatsapp } from "react-icons/si";
 
 const contatos = () => {
     return (
-        <div className='divContatos'>
+        <div className='divContatos' id='Contatos'>
             <div className='email'>
                 <h2>Vamos Conversar?</h2>
                 <form action="#" method="post">
