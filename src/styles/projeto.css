@@ -4,6 +4,14 @@
     margin: 0 auto;
 }
 
+.projetos h2{
+    color: #e7c433;
+    text-decoration: underline #dabb44;
+    text-shadow: 5px 5px 10px #000;
+    text-align: center;
+    padding: 10px;
+}
+
 .projeto-item {
     position: relative;
     text-align: center;
@@ -19,7 +27,8 @@
     width: 100%;
     height: 100px;
     margin-bottom: 15px;
-    filter: drop-shadow(10px 10px 4px #000)
+    filter: drop-shadow(10px 10px 4px #000);
+    animation: bounceUpDown 3s infinite alternate;
 }
 
 .projeto-item h3 {

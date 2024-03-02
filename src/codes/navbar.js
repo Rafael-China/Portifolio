@@ -34,7 +34,7 @@ const NavBar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="https://drive.google.com/file/d/1bM0nR109UshOWM4J1T16zI3qCHMFJiew/view?usp=drive_link" target='blank_'>
                 Curriculo
               </a>
             </li>

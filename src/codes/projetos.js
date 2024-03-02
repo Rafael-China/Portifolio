@@ -57,6 +57,7 @@ const Projetos = () => {
 
     return (
         <div className='projetos' id='Projetos'>
+            <h2>Projetos</h2>
             <Slider {...settings}>
                 {projetos.map((projeto, index) => (
                     <div
