@@ -44,8 +44,18 @@
     border-radius: 5px;
 }
 
+.medias p:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
 .medias a {
     text-decoration: none;
+}
+
+label {
+    color: #000;
 }
 
 .mediasClicavel {
@@ -71,14 +81,18 @@
 
 .mediasClicavel a span {
     text-decoration: none;
-    color: auto;
     color: #dabb44;
     filter: drop-shadow(5px 5px 3px #000)
 }
 
+.mediasClicavel a span:hover {
+    filter: drop-shadow(2px 2px 9px #e7c433);
+    transition: 1s;
+}
+
 .email {
     width: 65%;
-    background-color: #fff;
+    background-color: #ccc;
     border-radius: 5px;
     padding: 10px;
 }
@@ -86,7 +100,7 @@
 .email h2 {
     color: #e7c433;
     text-decoration: underline #e7c433;
-    text-shadow: 5px 5px 60px #000;
+    text-shadow: 0px 0px 10px #000;
     text-align: center;
 }
 
@@ -99,6 +113,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
+    box-shadow: 0px 0px 25px #000;
 }
 
 textarea {
