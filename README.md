@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+# Portfólio de Rafael de Carvalho Nogueira
+
+Este é o meu portfólio desenvolvido para demonstrar os meus conhecimentos em JavaScript, utilizando React.js. Além disso, aqui você encontrará algumas das minhas criações e habilidades em produção e manipulação web.
+
+## Visualize o Site
+
+Você pode visualizar o meu portfólio [aqui](https://rafael-nogueira.netlify.app).

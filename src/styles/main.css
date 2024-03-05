@@ -8,7 +8,7 @@
 
 .wellcome {
     width: 90vw;
-    height: 70vh;
+    height: auto;
     background-color: rgba(64, 64, 64, 0.4);
     display: flex;
     justify-content: space-evenly;
@@ -85,6 +85,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .main {
+        height: auto;
+        padding: 20px;
+    }
+
     .wellcome {
         flex-direction: column;
         height: auto;

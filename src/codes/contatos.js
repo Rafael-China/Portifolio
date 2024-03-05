@@ -29,8 +29,7 @@ const contatos = () => {
                 <div className='mediasClicavel'>
                     <a href='https://www.linkedin.com/in/rafael-nogueira-49382b221/' target='blank_'><span><SiLinkedin /></span></a>
                     <a href='https://github.com/Rafael-China' target='blank_'><span><SiGithub /></span></a>
-                    {/* <a>Instagram</a> */}
-                    <a href='https://w.app/ftC524' target='blank_'><span><SiWhatsapp /></span></a>
+                    <a href="https://api.whatsapp.com/send?phone=5531998165044&text=Olá%20gostei%20de%20seu%20portifólio!" target="_blank"><span><SiWhatsapp /></span></a>
                 </div>
             </div>
         </div>
