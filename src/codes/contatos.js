@@ -1,25 +1,12 @@
 import React from 'react';
 import '../styles/contatos.css';
 import { SiGithub, SiLinkedin, SiWhatsapp } from "react-icons/si";
+import Email from '../codes/email'
 
 const contatos = () => {
     return (
         <div className='divContatos' id='Contatos'>
-            <div className='email'>
-                <h2>Vamos Conversar?</h2>
-                <form action="#" method="post">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required />
-
-                    <label for="assunto">Assunto:</label>
-                    <input type="text" id="assunto" name="assunto" required />
-
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" required></textarea>
-
-                    <input type="submit" value="Enviar" />
-                </form>
-            </div>
+            <Email/>
             <div className='redesSociais'>
                 <h2>Redes Sociais</h2>
                 <div className='medias'>
