@@ -34,8 +34,8 @@ const Main = () => {
                         emocionantes.
                     </p>
                     <div>
-                        <DetalhesAba titulo="-> Conhecimentos / Competências <-">
-                            <p>Expertise em HTML, CSS, JavaScript, MySQL, React, MySQL, Git/GitHub.<br /> </p>
+                        <DetalhesAba titulo="-> Competências / Conhecimentos <-">
+                            <p>Competência em HTML, CSS, JavaScript, React, MySQL, Responsividade, Git.<br /> </p>
                             <p>Conhecimento em UI/UX, Metodologias ágeis.</p>
                         </DetalhesAba>
                     </div>
