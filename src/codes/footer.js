@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <div className='copyArea'>
-            <p> &copy; Todos direitos resevados <a href="https://portifolio-rafael.netlify.app"
+            <p> &copy; Todos direitos resevados <a href="https://rafael-nogueira.netlify.app/"
                 target="_blank"> Rafael Nogueira</a>
             </p>
         </div>
