@@ -11,7 +11,7 @@
 .navbar {
     --bs-navbar-hover-color: #e7c433;
     --bs-navbar-brand-hover-color: #e7c433;
-    background-color: rgba(64, 64, 64, 0.25) !important;
+    background-color: rgba(64, 64, 64, 0.5) !important;
     border-radius: 5px;
 }
 
